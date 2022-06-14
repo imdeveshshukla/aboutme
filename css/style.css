@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    background-color: #EFEFEF;
+    /* background-color: #EAF6F6; */
+    font-family: 'Roboto Condensed', sans-serif, serif; 
+}
+nav{
+    position: fixed;
+}
+.top-container{
+    background-color: #B3E8E5;
+    /* display: inline-block; */
+    /* position: relative; */
+    text-align: center;
+    padding-top: 90px;
+    /* margin: 0; */
+    /* padding-bottom: 0; */
+}
+.intro{
+    height: auto;
+    width: fit-content;
+    margin: auto;
+    text-align: right;
+}
+.intro1{
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    font-size: 5rem;
+    color: #49a7a7;
+    margin: 50px auto 0 auto;
+    /* font-weight: 1000px; */
+}
+h1{
+    color: #11999E;
+}
+.intro2{
+    margin-top: 0;
+
+    color: #49a7a7;
+    font-family: 'Tai Heritage Pro', serif;
+    font-weight: normal;
+    /* line-height: 3; */
+}
+.mountain{
+    /* display: inline-block; */
+    width: 35%;
+    position: relative;
+}
+.top-cloud{
+    /* position: absolute;
+    top: 10px;
+    left: 1000px;  */
+    position: relative;
+    left: 200px;
+}
+.bottom-cloud{
+    position: absolute;
+    /* left: 29%; */
+}
+.mid-container{
+    /* background-color: #EFEFEF; */
+    text-align: center;
+    margin-top: 2%;
+
+    
+}
+.third-container,.fourth-container{
+    /* background-color: #EFEFEF; */
+    text-align: center;
+}
+.profile{
+    width: 20%;
+    margin: 0;
+}
+.para{
+    width: 16%;
+    margin: 0 auto 0;
+
+}
+.gif{
+    width: 10%;
+    height: 10%;
+}
+#project{
+    margin: 50px;
+}
+ul{
+    list-style-type: dotted;
+    list-style-position: inside;
+    margin: 0;
+    line-height: 2;
+    text-align: center;
+}
+footer{
+    /* background-color: rgba(0, 0, 0, 0.699); */
+    background-color: #B3E8E5;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    padding: 20px;
+}
+.contact{
+    height: 3%;
+    width: 3%;
+    margin: 2px;
+    transition: 3s;
+    /* animation-duration: 3s;
+    animation-name: slidein; */
+}
+.img:hover{
+    transition: 0.9s;
+    height: 4%;
+    width: 4%;
+}
+#copyright{
+    color: #EAF6F6;
+    margin: 0;
+    font-family: 'Tai Heritage Pro', serif;
+}
+hr{
+    border-style: dotted none none;
+    border-color: #B3E8E5;
+    border-width: 10px;
+    width: 8%;
+    margin: 50px auto 50px auto;
+}
