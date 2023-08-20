@@ -51,11 +51,13 @@ h1{
     top: 10px;
     left: 1000px;  */
     position: relative;
-    left: 200px;
+    left: 100px;
+    width: 20%;
 }
 .bottom-cloud{
     position: absolute;
-    /* left: 29%; */
+    left: 10%;
+    width: 20%;
 }
 .mid-container{
     /* background-color: #EFEFEF; */
