@@ -6,14 +6,18 @@ body{
 }
 nav{
     position: fixed;
+    background-color: #B3E8E5;
 }
 .top-container{
     background-color: #B3E8E5;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+
     /* display: inline-block; */
     /* position: relative; */
     text-align: center;
-    padding-top: 90px;
+    padding-top: 40px;
     /* margin: 0; */
     /* padding-bottom: 0; */
 }
@@ -29,7 +33,7 @@ nav{
     margin: 0;
     font-size: 5rem;
     color: #49a7a7;
-    margin: 50px auto 0 auto;
+    /* margin: 50px auto 0 auto; */
     /* font-weight: 1000px; */
 }
 h1{
@@ -46,19 +50,22 @@ h1{
 .mountain{
     /* display: inline-block; */
     /* margin-top: 1px; */
-    width: 38%;
-    position: relative;
+    width: 34%;
+    /* position: relative; */
+    align-self: center;
 }
 .top-cloud{
     /* position: absolute;
     top: 10px;
     left: 1000px;  */
-    position: relative;
-    left: 100px;
+    /* position: relative; */
+    /* left: 100px; */
+    /* margin: 100px; */
+    /* z-index: 1; */
     width: 20%;
 }
 .bottom-cloud{
-    position: absolute;
+    /* position: absolute; */
     left: 10%;
     width: 20%;
 }
@@ -131,11 +138,31 @@ hr{
 }
 
 @media (max-width:550px) {
+    .top-container{
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .mountain{
         /* display: inline-block; */
-        margin-top: 35%;
+        /* margin-top: 50%; */
         
-        width: 80%;
+        width: 100%;
+    }
+    .top-cloud{
+        /* marquee */
+        position: fixed;
+        width: 30%;
+    }
+    .intro{
+        /* justify-self: center; */
+        align-self: center;
+    }
+    .bottom-cloud{
+        position: relative;
+        left: 100px;
+        width: 40%;
     }
     .profile{
         width: 40%;
