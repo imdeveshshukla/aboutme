@@ -13,7 +13,6 @@ nav{
     height: 100vh;
     display: flex;
     flex-direction: column;
-
     /* display: inline-block; */
     /* position: relative; */
     text-align: center;
@@ -23,6 +22,8 @@ nav{
 }
 .intro{
     height: auto;
+    /* background-color: transparent; */
+    z-index: 1;
     width: fit-content;
     margin: auto;
     margin-top: 5%;
@@ -62,6 +63,8 @@ h1{
     /* left: 100px; */
     /* margin: 100px; */
     /* z-index: 1; */
+    position: absolute;
+    left: 1000px;
     width: 20%;
 }
 .bottom-cloud{
@@ -137,7 +140,7 @@ hr{
     margin: 50px auto 50px auto;
 }
 
-@media (max-width:550px) {
+@media (max-width:1255px) {
     .top-container{
         /* width: 100%; */
         display: flex;
@@ -147,12 +150,12 @@ hr{
     .mountain{
         /* display: inline-block; */
         /* margin-top: 50%; */
-        
         width: 100%;
     }
     .top-cloud{
         /* marquee */
-        position: fixed;
+        /* position: fixed; */
+        left: 0;
         width: 30%;
     }
     .intro{
